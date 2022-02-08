@@ -1,0 +1,36 @@
+*{
+    background-color: khaki;
+
+}
+
+.main-header{
+    text-align: center;
+    color: coral;
+
+}
+
+.main-prayers{
+    display: inline-block;
+    text-align: left;
+    text-decoration: none;
+    transition: .5s;
+    outline: none;
+    background-color:darkcyan;
+    border-radius: 6px;
+    margin-left: 1rem;
+    padding: 4px;
+    color: whitesmoke;
+    
+}
+
+.main-prayers:hover{
+    transition: .5s;
+    transform: scale(1.2);
+    color: black;
+    background-color: transparent;
+    backdrop-filter:blur(4px);
+}
+
+.prayer-times{
+    display: inline-block;
+}

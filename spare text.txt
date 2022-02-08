@@ -1,0 +1,5 @@
+<!--<h1 class="date">Date (hijri): ${data[0].results.datetime.date.hijri}</h1>
+        <h1 class="time">Prayer Times</h1>
+        <div class="prayer-times timess">
+            <h1 class="timess">Last 3rd: ${data[0].results.datetime.times.Imsak}</h1>
+        </div>-->
