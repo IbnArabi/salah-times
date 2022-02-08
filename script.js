@@ -19,6 +19,7 @@ fetch('https://api.pray.zone/v2/times/today.json?city=mecca')
 	        <h2 class="main-prayers">Sunset: ${data.results.datetime[i].times.Sunset}</h2>
 	        <h2 class="main-prayers">Isha: ${data.results.datetime[i].times.Isha}</h2>
 	        <h2 class="main-prayers other">Midnight: ${data.results.datetime[i].times.Midnight}</h2>
+            <h5>Information is not accurate</h5>
         </div>
     </div>
 `
